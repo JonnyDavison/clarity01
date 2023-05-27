@@ -1,23 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+/* --- General Styles --- */
 body {
     font-family: 'Oswald', sans-serif;
-    background-image: url('/static/css/images/clarityweb-bg.png');
+    background-image: url('/static/css/images/claritywebbgbc.webp');
     background-position: center;
-    background-repeat: no-repeat repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-color: #094275;
     color: #F0D5C0;
 }
 
+.mainbody {
+    /* padding-left: 5%; 
+    padding-right: 5%; 
+    scroll-behavior: smooth; */
+}
+
+/* --- Page logo --- */
+
+.headtitle {
+    display: inline-block;
+       
+}
+.logo {
+    font-size: 200px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #F0D5C0
+}
+a:hover {
+    text-decoration: none;
+    color: #DC7364
+}
+/* --- Navigation --- */
+
+.navbar {
+    margin-left: auto
+    
+}
+.nav {
+    flex-wrap: nowrap;
+}
+.nav a {
+    
+    text-align: end;
+    color: #F0D5C0;
+}
+
+.fa-solid {
+    color: #F0D5C0;
+}
+
+.dropdown-menu {
+    color: #F0D5C0;
+    background-color: #094275;
+}
+
+
+/* --- Media Queries SUB 1400px --- */
 @media(max-width: 1400px) {
     
     
-    body {
-        background-image: none;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: #094275;
-    }
+  
 
 }
+/* --- Media Queries SUB 800px --- */
+@media(max-width: 800px) {
+    
+    
+    
+ 
+ }

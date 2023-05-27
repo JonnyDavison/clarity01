@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image: url('/static/css/images/clarityweb-bg.png');
+    background-position: center;
+    background-repeat: no-repeat repeat;
+    background-size: cover;
+    background-color: #094275;
+    color: #F0D5C0;
+}
+
+@media(max-width: 1400px) {
+    
+    
+    body {
+        background-image: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #094275;
+    }
+
+}

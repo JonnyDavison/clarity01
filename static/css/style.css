@@ -11,20 +11,17 @@ body {
 }
 
 .mainbody {
-    /* padding-left: 5%; 
+    padding-left: 5%; 
     padding-right: 5%; 
-    scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 
 /* --- Page logo --- */
 
 .headtitle {
+    padding-top: 15%;
     display: inline-block;
        
-}
-.logo {
-    font-size: 200px;
-    font-weight: 400;
 }
 
 a {
@@ -35,11 +32,16 @@ a:hover {
     text-decoration: none;
     color: #DC7364
 }
+
+
+
 /* --- Navigation --- */
 
 .navbar {
     margin-left: auto
-    
+}
+.nav-item a:hover {
+    color: #DC7364;
 }
 .nav {
     flex-wrap: nowrap;
@@ -57,6 +59,25 @@ a:hover {
 .dropdown-menu {
     color: #F0D5C0;
     background-color: #094275;
+}
+
+/* --- Home Page index.html --- */
+
+.tagline {
+    padding-top: 12.5%;
+}
+
+/* --- Cards all pages --- */
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.card-body h2:hover {
+    color: #DC7364;
+}
+.card-body p {
+    font-weight: 200;
 }
 
 

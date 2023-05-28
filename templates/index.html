@@ -1,6 +1,50 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Block context index Test </h1>
+<div class="row">
+    <div class="col-md-12 headtitle container-fluid">
+        <h1 class="logo"><a href="{{ url_for('index') }}" class="display-1">CLARITY</a></h1>
+        <small class="text-muted lead">Your vision. We make it work.</small>
+    </div>
+</div>
+<h1 class="h3 lead tagline">
+    Kerry spence is a highly experienced corporate firefighter , problem solver and manager with a demonstrable history
+    of identifying and correcting issues which prevent businesses from achieving successful outcomes
+</h1>
 
+
+<div class="row gx-4 gx-lg-5">
+    <div class="col-md-4 mb-5">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="card-title">Business Consultancy</h2>
+                <p class="card-text">Short term support - mentoring, knowledge sharing, auditing, creating strategies
+                    and providing solutions.</p>
+            </div>
+            <div class="card-footer"><a class="btn btn-primary btn-sm" href="{{ url_for('services') }}">More Info</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-5">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="card-title">Interim Management</h2>
+                <p class="card-text">Working with you in your business, offering hands-on practical help to get the job
+                    done. Processes, structure, team building & management, identifying & filling gaps.</p>
+            </div>
+            <div class="card-footer"><a class="btn btn-primary btn-sm" href="{{ url_for('services') }}">More Info</a></div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-5">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="card-title">Card 6</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex
+                    numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+            </div>
+            <div class="card-footer"><a class="btn btn-primary btn-sm" href="{{ url_for('services') }}">More Info</a></div>
+        </div>
+    </div>
+</div>
+</div>
 {% endblock %}

@@ -63,9 +63,12 @@ a:hover {
     flex-wrap: nowrap;
 }
 .nav a {
-    
     text-align: end;
     color: #F0D5C0;
+}
+
+.nav-menu {
+    /* justify-content: center; */
 }
 
 .fa-solid {

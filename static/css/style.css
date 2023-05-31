@@ -37,7 +37,7 @@ h1, h2, h3, h4 {
 .headtitle {
     padding-top: 15%;
     display: inline-block;
-       
+    padding-bottom: 12.5%;   
 }
 
 a {
@@ -83,7 +83,6 @@ a:hover {
 /* --- Home Page index.html --- */
 
 .tagline {
-    padding-top: 12.5%;
     padding-bottom: 2.5%;
     font-size: 2.25rem;
     font-weight: 200;
@@ -93,7 +92,22 @@ a:hover {
     justify-content: right;
     margin-right: 0;
     display: flex;
+    padding-bottom: 5%;
 }
+
+.call-text {
+    font-size: 26px;
+}
+
+/* --- buttons all pages --- */
+
+.clarity-btn {
+    color: #F0D5C0;
+    background-color: #DC7364;
+    
+}
+
+
 
 /* --- Cards all pages --- */
 .card {
@@ -108,12 +122,13 @@ a:hover {
     font-weight: 200;
 }
 
+.about-card 
+
 /* --- Footer all pages --- */
 
 footer {
-    background-color: #094275;
+    background-color: red;
     min-height: 40px;
-
     margin: 0;
     margin-top: 5%;
 }
@@ -138,6 +153,28 @@ footer {
 .copyright p {
     margin-bottom: 0;
 }
+
+/* --- Clarity Footer --- */
+.clarity-footer {
+    background-color: #094275;
+    overflow: hidden;
+    font-weight: 200;
+    line-height: 1;
+    margin: 0;    
+    margin-bottom: 0;
+    padding-bottom: 2.5%;
+}
+
+.clarity-footer h6 {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #DC7364;
+}
+
+.copyright {
+    padding-bottom: 100px;
+}
+
 /* --- Media Queries SUB 1400px --- */
 @media(max-width: 1400px) {
     

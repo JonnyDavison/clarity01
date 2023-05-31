@@ -17,8 +17,8 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand" href="{{ url_for('index') }}"><img src=" {{ url_for('static', filename='css/images/claritylogo.webp') }}"
-                    alt="Clarity Logo"></a>
+            <a class="navbar-brand" href="{{ url_for('index') }}"><img
+                    src=" {{ url_for('static', filename='css/images/claritylogo.webp') }}" alt="Clarity Logo"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
@@ -56,40 +56,83 @@
             {% endblock %}
         </section>
     </section>
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 footer-sections">
-                <span>
-                    <i class="fa-solid fa-phone inline-block"></i>
-                    <p class="inline-block">
-                        ph: 0044 7736 805269
-                    </p>
-                </span>
-                
-                <span>
-                    <i class="fa-regular fa-envelope inline-block"></i>
-                    <p class="inline-block">
-                        E-mail: contact@kerryspence.com
-                    </p>
-                </span>
-           
-                <span>
-                    <a href="https://www.linkedin.com/in/kerryspence/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                    <p class="inline-block">
-                       <a href="https://www.linkedin.com/in/kerryspence/" target="_blank">LinkedIn</a> 
-                    </p>
-                </span>
-            </div>
-            <div class="col-sm-12 footer-sections">
-                <span class="copyright">
-                    <p>Copyright Clarity <i class="fa-regular fa-copyright"></i> </p>
-                </span>
-            </div>
+    <div>
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="clarity-footer">
+                <section>
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="mb-4">
+                                Clarity
+                            </h6>
+                            <p>
+                                Get in touch - Free consultation
+                            </p>
+                        </div>
 
-        </div>
-    </footer>
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="mb-4">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a class="text-white">Your Account</a>
+                            </p>
+                            <p>
+                                <a class="text-white">Become an Affiliate</a>
+                            </p>
+
+                        </div>
+
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="mb-4">Contact</h6>
+                            <p><i class="fas fa-home mr-3"></i> UK & Ireland</p>
+                            <p><i class="fas fa-phone mr-3"></i> 0044 7736 805269</p>
+                            <p><i class="fas fa-envelope mr-3"></i>contact@kerryspence.com</p>
+                            <a href="https://www.linkedin.com/in/kerryspence/" target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn</a>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+
+                <hr class="my-3">
+
+                <!-- Section: Copyright -->
+                <section class="pt-0">
+                    <!-- Grid column -->
+                    <div class="col-md-12">
+                        <!-- Copyright -->
+                        <div class="Copyright">
+                            <p>© 2020 Copyright: Clarity</p>
+                        </div>
+                        <!-- Copyright -->
+                    </div>
+
+                </section>
+                <!-- Section: Copyright -->
+            </div>
+            <!-- Grid container -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>

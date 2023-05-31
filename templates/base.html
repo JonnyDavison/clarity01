@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand" href="{{ url_for('index') }}"><img src="static/css/images/claritylogo.webp"
+            <a class="navbar-brand" href="{{ url_for('index') }}"><img src=" {{ url_for('static', filename='css/images/claritylogo.webp') }}"
                     alt="Clarity Logo"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

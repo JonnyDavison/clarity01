@@ -84,9 +84,15 @@ a:hover {
 
 .tagline {
     padding-top: 12.5%;
-    padding-bottom: 12.5%;
+    padding-bottom: 2.5%;
     font-size: 2.25rem;
     font-weight: 200;
+}
+
+.call-to-action {
+    justify-content: right;
+    margin-right: 0;
+    display: flex;
 }
 
 /* --- Cards all pages --- */

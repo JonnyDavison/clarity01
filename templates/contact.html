@@ -1,13 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
+
 <div class="row">
-    <div class="col-md-12 headtitle container-fluid">
-        <h1 class="logo"><a href="{{ url_for('index') }}" class="display-1">CLARITY</a></h1>
-        <small class="text-muted lead">Your vision. We make it work.</small>
+    <div class="col-md-12 container">
+        <h1 class="h1 tagline">
+            We would love to hear about your business and how we can help! Contact us today with any queries questions or projects you would like to collaborate on! 
+        </h1>
+        <div class="col-md-12 container call-to-action">
+            <small class="lead call-text">
+                Contact us below for a <strong>free initial consultation </strong> 
+            </small>
     </div>
-</div>
-<h1>Contact</h1>
 <form method="POST" name="sentMessage" id="contactForm" novalidate>
     <div class="control-group">
         <div class="form-group floating-label-form-group controls">

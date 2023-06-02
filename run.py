@@ -28,7 +28,10 @@ def contact():
 
 @app.route("/testimonials")
 def testimonials():
-    return render_template('testimonials.html', page_title="Testimonials")
+    data = []
+    with open("data/testimonials.json", "r") as json_data:
+        data = json.load(json_data)
+    return render_template('testimonials.html', page_title="Testimonials", testimonials=data)
 
 
 if __name__ == "__main__":

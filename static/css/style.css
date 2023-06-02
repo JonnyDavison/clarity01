@@ -36,9 +36,9 @@ h1, h2, h3, h4 {
 /* --- Page logo --- */
 
 .headtitle {
-    padding-top: 15%;
+    padding-top: 10%;
     display: inline-block;
-    padding-bottom: 12.5%;   
+    padding-bottom: 10%;   
 }
 
 a {
@@ -98,6 +98,16 @@ a:hover {
 
 .call-text {
     font-size: 26px;
+}
+/* --- Contact Page contact.html --- */
+.call-text strong {
+    text-decoration: none;
+    color: #DC7364;
+    text-transform: capitalize;
+}
+.call-text strong:hover {
+    text-decoration: underline;
+    color: #DC7364
 }
 
 /* --- buttons all pages --- */

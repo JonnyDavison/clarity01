@@ -171,6 +171,11 @@ footer {
     margin-bottom: 0;
 }
 
+.footer-logo {
+    margin-bottom: 0; !important
+}
+
+
 /* --- Clarity Footer --- */
 .clarity-footer {
     background-color: #094275;

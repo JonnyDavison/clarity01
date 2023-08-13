@@ -3,51 +3,64 @@
 {% block content %}
 
 <div class="row">
-<div class="col-md-12 container">
-    <h1 class="h1 tagline">
-        At Clairty for Business our team is filled with highly experienced indiviuals, corporate firefighters, problem solvers and managers. We have demonstrable history, across many fields, 
-        identifying and correcting issues which prevent businesses from achieving successful outcomes
-    </h1>
-    <div class="col-md-12 container call-to-action">
-        <small class="lead call-text">
-            Contact us! Free initial consultation 
-            <a class="btn btn-sm clarity-btn" href="{{ url_for('contact') }}">Contact us</a>
-        </small>
-</div>
+    <div class="col-md-12 container">
+        <h1 class="h1 tagline">
+            At React Clarity we specialise in identifying and addressing the gaps and roadblocks hindering your
+            business's growth and productivity. When you're facing challenges in team dynamics, culture, lack of
+            processes, or overwhelmed leaders, we step in on an interim basis as your trusted partners to assist you
+            towards success. Your vision. We make it work.
+        </h1>
+        <div class="col-md-12 container call-to-action">
+            <small class="lead call-text">
+                Don't know where to start?
+                <a class="btn btn-sm clarity-btn" href="{{ url_for('contact') }}">Contact us</a>
+            </small>
+        </div>
 
 
-<div class="row gx-4 gx-lg-5">
-    <div class="col-md-4 mb-5">
-        <div class="card h-100">
-            <div class="card-body text-center">
-                <h2 class="card-title display-4">DISCUSS</h2>
-                <p class="card-text h4">We have a quick discussion by telephone or email when I can learn more about you
-                    and your challenges and you can learn more about what I have to offer your business.</p>
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h2 class="card-title display-4">Unleash your true businesses potential</h2>
+                        <p class="card-text h4">
+                            Navigating the challaneges of growth, opptomising team proformance, maximising oppertunities
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h2 class="card-title display-4">Indentify Roadblocks</h2>
+                        <p class="card-text h4">
+                            Pinpointing the root causes of your challenges, through formal audit and
+                            comprehensive planning, or practical hands on guidance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h2 class="card-title display-4">Regain Control</h2>
+                        <p class="card-text h4">
+                            If you are working in your business instead of on your business, we offer soulitions,
+                            structure and support
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-4 mb-5">
-        <div class="card h-100">
-            <div class="card-body text-center">
-                <h2 class="card-title display-4">MEET</h2>
-                <p class="card-text h4">We have an initial meeting to go into more detail about your challenges and work
-                    out practical ways to help and what that would mean in terms of time and financial commitment.</p>
-            </div>
+        <div class="col-8 offset-2">
+            <p class="card-text h4">
+                If your business is facing obstacles, lacks processes, or needs mentorship, look no further. 
+                <br>
+                Let’s have a no obligation discussion about your current challenges.
+            </p>
+        </div>
+        <div class="col-md-12 text-center">
+            <a class="btn btn-lg clarity-btn " href="{{ url_for('services') }}">More Info</a>
         </div>
     </div>
-    <div class="col-md-4 mb-5">
-        <div class="card h-100">
-            <div class="card-body text-center">
-                <h2 class="card-title display-4">DECIDE</h2>
-                <p class="card-text h4">You decide the next steps. If we decide to work together we agree a start date and
-                    iron out some of the final details. Engagement is by way of exchange of correspondence - there is no
-                    long term commitment. </p>
-            </div>
-        </div>
-    </div>
-</div>
-    <div class="col-md-12 text-center">
-        <a class="btn btn-lg clarity-btn " href="{{ url_for('services') }}">More Info</a> 
-    </div>
-</div>
-{% endblock %}
+    {% endblock %}

@@ -129,7 +129,7 @@ a:hover {
 /* --- Cards all pages --- */
 .card {
     background-color: rgba(0, 0, 0, 0);
-    border: none;
+    border: 1px solid #DC7364;
 }
 
 .card-body h2:hover {

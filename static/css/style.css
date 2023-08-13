@@ -34,6 +34,10 @@ h1, h2, h3, h4 {
 }
 
 /* --- Page logo --- */
+.logo-large{
+    width: 200px;
+    height: 200px;
+}
 
 .headtitle {
     padding-top: 10%;

@@ -35,6 +35,7 @@ h1, h2, h3, h4 {
 
 /* --- Page logo --- */
 .logo-large{
+    margin-top: 30px;
     width: 200px;
     height: 200px;
 }

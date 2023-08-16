@@ -79,10 +79,8 @@
                             <h6 class="mb-4 footer-logo">
                                 REACT CLARITY
                             </h6>
-                            <p class="footer-strapline mb-4">BUSINESS CONSULTANTS</p>
-                            <p>
-                                Get in touch - Free consultation
-                            </p>
+                            <p class="footer-strapline mt-4 mb-4">BUSINESS CONSULTANTS</p>
+                            <a class="text-white" href="{{ url_for('contact') }}">Get in touch - Free consultation</a>
                         </div>
 
                         <hr class="w-100 clearfix d-md-none" />
@@ -97,10 +95,13 @@
                                 Useful links
                             </h6>
                             <p>
-                                <a class="text-white">Your Account</a>
+                                <a class="text-white" href="{{ url_for('contact') }}">Contact</a>
                             </p>
                             <p>
-                                <a class="text-white">Become an Affiliate</a>
+                                <a class="text-white" href="{{ url_for('services') }}">Services</a>
+                            </p>
+                            <p>
+                                <a class="text-white" href="{{ url_for('contact') }}">Become an Affiliate</a>
                             </p>
 
                         </div>

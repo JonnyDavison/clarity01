@@ -12,6 +12,9 @@ body {
 .bg-clarity {
     background-color: #094275;
 }
+.clarity-bright {
+    color: #DC7364;
+}
 .mainbody {
     padding-left: 5%; 
     padding-right: 5%; 

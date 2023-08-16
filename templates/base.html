@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
 
     <title>REACT CLARITY - BUSINESS CONSULTANTS</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("K3-p99-quuCecVBcq");
+        })();
+    </script>
 </head>
 
 <body>
@@ -35,7 +42,7 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="{{ url_for('about') }}">REACT CLARITY</a>
                             <a class="dropdown-item" href="{{ url_for('services') }}">SERVICES</a>
-                            <a class="dropdown-item" href="{{ url_for('team') }}">MEET KERRY</a> 
+                            <a class="dropdown-item" href="{{ url_for('team') }}">MEET KERRY</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -152,7 +159,7 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/75b57bf907.js" crossorigin="anonymous"></script>
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="static/js/sendEmail.js"></script>
 
 </body>
 

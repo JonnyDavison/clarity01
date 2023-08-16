@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-
 <div class="row">
     <div class="col-md-12 container">
         <h1 class="h1 tagline">
@@ -23,7 +22,8 @@
         <div class="col-12 col-md-6 text-center offsest-1 offset-md-3">
             <h4 class="mt-4">Or drop us a mesage below</h4>
         </div>
-        <form class="col-md-8 offset-md-2" method="POST" name="sentMessage" id="contactForm" novalidate>
+    
+        <form class="col-md-8 offset-md-2" method="" name="sentMessage" onsubmit="return sendMail(this);" id="contactForm" novalidate>
             <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
                     <label>Name</label>
@@ -58,9 +58,15 @@
             </div>
             <br>
             <div id="success"></div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-lg clarity-btn" id="sendMessageButton">Send</button>
+        
+            <div class="col submitDiv" id="submitDiv">
+                <button type="submit" id="sendMessageButton" class="btn clarity-btn btn-secondary" onclick="submitDisappear(); thanksAppear()">Send</button>
             </div>
         </form>
-
+        <div class="col-12 thanksDiv text-center" id="thanksDiv">
+            <h5>Thank You</h5>
+            <p>Your message has been sent</p>
+            <p>We will be in contact with you soon!</p>
+            <button type="submit" class="btn clarity-btn" onclick="resetPage()">Close</button>
+        </div>
         {% endblock %}

@@ -123,6 +123,11 @@ a:hover {
     color: #DC7364
 }
 
+/* ----- Form page ----- */
+
+.thanksDiv {
+    display: none;
+}
 /* --- buttons all pages --- */
 
 .clarity-btn {

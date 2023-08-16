@@ -26,6 +26,16 @@ def contact():
     return render_template("contact.html", page_title="Contact")
 
 
+@app.route("/more")
+def more():
+    return render_template("more.html", page_title="More")
+
+
+@app.route("/team")
+def team():
+    return render_template("team.html", page_title="Team")
+
+
 @app.route("/testimonials")
 def testimonials():
     data = []

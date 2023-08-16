@@ -9,7 +9,9 @@ body {
     background-color: #094275;
     color: #F0D5C0;
 }
-
+.bg-clarity {
+    background-color: #094275;
+}
 .mainbody {
     padding-left: 5%; 
     padding-right: 5%; 
@@ -79,9 +81,6 @@ a:hover {
     color: #F0D5C0;
 }
 
-.nav-menu {
-    /* justify-content: center; */
-}
 
 .fa-solid {
     color: #F0D5C0;
@@ -126,10 +125,11 @@ a:hover {
 .clarity-btn {
     color: #F0D5C0;
     background-color: #DC7364;
-    
 }
 
-
+.funnel-btn {
+    margin: auto;
+}
 
 /* --- Cards all pages --- */
 .card {
@@ -177,7 +177,7 @@ footer {
 }
 
 .footer-logo {
-    margin-bottom: 0; !important
+    margin-bottom: 0 !important;
 }
 
 

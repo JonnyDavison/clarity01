@@ -10,22 +10,43 @@
             processes, or overwhelmed leaders, we step in on an interim basis as your trusted partners to assist you
             towards success. Your vision. We make it work.
         </h1>
-        <div class="col-md-12 container call-to-action">
-            <small class="lead call-text">
-                Don't know where to start?
-                <a class="btn btn-sm clarity-btn" href="{{ url_for('contact') }}">Contact us</a>
-            </small>
-        </div>
+
 
 
         <div class="row gx-4 gx-lg-5">
             <div class="col-md-4 mb-5">
                 <div class="card h-100">
                     <div class="card-body text-center">
-                        <h2 class="card-title h3">Unleashing businesses potential</h2>
+                        <h2 class="card-title h3">Unleashing Businesses Potential</h2>
                         <p class="card-text h4">
                             Navigating the challaneges of growth, opptomising team proformance, maximising oppertunities
                         </p>
+                        <button type="button" class="btn clarity-btn btn-primary" data-toggle="modal"
+                            data-target="#unleash">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="unleash" tabindex="-1" role="dialog" aria-labelledby="unleashTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content bg-clarity">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="unleashTitle">Unleashing businesses potential</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            some info
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn clarity-btn"
+                                data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -37,6 +58,32 @@
                             Pinpointing the root causes of your challenges, through formal audit and
                             comprehensive planning, or practical hands on guidance.
                         </p>
+                        <button type="button" class="btn clarity-btn btn-primary" data-toggle="modal"
+                            data-target="#identifiy">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="identifiy" tabindex="-1" role="dialog" aria-labelledby="identifiyTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content bg-clarity">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="identifiyTitle">Indentifing Roadblocks</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            some info
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn clarity-btn"
+                                data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -48,20 +95,46 @@
                             If you are working in your business instead of on your business, we offer soulitions,
                             structure and support
                         </p>
+                        <button type="button" class="btn clarity-btn btn-primary" data-toggle="modal"
+                            data-target="#regain">
+                            More Info
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Modal -->
+        <div class="modal fade" id="regain" tabindex="-1" role="dialog" aria-labelledby="regainTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-clarity">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="regainTitle">Regaining Control</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    some info
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn clarity-btn"
+                        data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
         <div class="col-md-6 offset-3">
             <p class="card-text text-center h5">
-                If your business is facing obstacles, lacks processes, or needs mentorship,
+                Don't know where to start? If your business is facing obstacles, lacks processes, or needs mentorship,
                 <br>
-                look no further. 
+                look no further.
                 Let's have a no obligation discussion about your current challenges.
             </p>
         </div>
         <div class="col-md-12 text-center">
-            <a class="btn btn-lg btn-sm clarity-btn my-3" href="{{ url_for('more') }}">More Info</a>
+            <a class="btn btn-lg clarity-btn my-3" href="{{ url_for('contact') }}">Contact us</a>
         </div>
     </div>
     {% endblock %}

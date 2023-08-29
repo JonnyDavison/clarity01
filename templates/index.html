@@ -155,7 +155,14 @@
             </p>
         </div>
         <div class="col-md-12 text-center">
-            <a class="btn btn-lg clarity-btn my-3" href="{{ url_for('contact') }}">Contact us</a>
+            <!-- Calendly link widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            <a class="btn btn-lg clarity-btn my-3" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/reactclarityintro/45min'});return false;">Book
+                now</a>
+            
+            
+            <!-- Calendly link widget end -->
         </div>
     </div>
     {% endblock %}

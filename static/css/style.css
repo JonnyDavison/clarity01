@@ -20,6 +20,7 @@ body {
     padding-right: 5%; 
     scroll-behavior: smooth;
     padding-bottom: 10%;
+    margin-top: 10px ;
 }
 
 h1, h2, h3, h4 {
@@ -219,6 +220,11 @@ footer {
     
   
 
+}
+@media (max-width: 991px) {
+    .header-container {
+       height: 116px;
+    }
 }
 /* --- Media Queries SUB 800px --- */
 @media(max-width: 800px) {

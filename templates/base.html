@@ -24,8 +24,8 @@
 <body>
     <header>
         <nav class="navbar fixed-top navbar-expand-md bg-clarity">
-            <a class="navbar-brand" href="{{ url_for('index') }}"><img
-                    src="{{ url_for('static', filename='css/images/claritylogo.webp') }}" alt="Clarity Logo"></a>
+            <a class="navbar-brand" href="{{ url_for('index') }}"><img class="navbar-img"
+                    src="{{ url_for('static', filename='css/images/react-clarity.png') }}" alt="React CLARITY Logo"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
@@ -61,12 +61,12 @@
                 
                 <div class="col-md-8 headtitle ">
                     <h1><a href="{{ url_for('index') }}" class="display-1">REACT CLARITY</h1>
-                    <h2 class="display-4">BUSINESS CONSULTANTS</h2></a>
+                    <h3 class="display-4">BUSINESS CONSULTANTS AND INTERIM MANAGERS</h3></a>
                     <small class="text-muted strapline lead">Your vision. We make it work.</small>
                 </div>
                 <div class="col-md-4 headtitle">
                     <a class="" href="{{ url_for('index') }}"><img class="logo-large img-fluid d-none d-md-block"
-                        src=" {{ url_for('static', filename='css/images/claritylogo.webp') }}" alt="Clarity Logo"></a>
+                        src=" {{ url_for('static', filename='css/images/react-clarity.png') }}" alt="Clarity Logo"></a>
                 </div>
             </div>
             {% block content %}
@@ -107,9 +107,7 @@
                             <p>
                                 <a class="text-white" href="{{ url_for('services') }}">Services</a>
                             </p>
-                            <p>
-                                <a class="text-white" href="{{ url_for('contact') }}">Become an Affiliate</a>
-                            </p>
+                           
 
                         </div>
 
@@ -139,7 +137,7 @@
                     <div class="col-md-12">
                         <!-- Copyright -->
                         <div class="Copyright">
-                            <p>© 2023 Copyright: Clarity for Business</p>
+                            <p>© 2023 Copyright: React</p>
                         </div>
                         <!-- Copyright -->
                     </div>

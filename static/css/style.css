@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
 /* --- Page logo --- */
 .logo-large{
     width: 18.75rem;
-    height: 18.75rem;
+    height: auto;
 }
 
 .headtitle {
@@ -83,6 +83,10 @@ a:hover {
     color: #F0D5C0;
 }
 
+.navbar-img{
+    height: 50px;
+    width: auto;
+}
 
 .fa-solid {
     color: #F0D5C0;

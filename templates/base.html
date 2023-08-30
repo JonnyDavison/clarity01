@@ -19,9 +19,31 @@
             emailjs.init("K3-p99-quuCecVBcq");
         })();
     </script>
+    <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+    <script type="text/javascript" src="//www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js"
+        charset="UTF-8"></script>
+    <script type="text/javascript" charset="UTF-8">
+        document.addEventListener('DOMContentLoaded', function () {
+            cookieconsent.run({
+                "notice_banner_type": "simple",
+                "consent_type": "express",
+                "palette": "light",
+                "language": "en",
+                "page_load_consent_levels": ["strictly-necessary"],
+                "notice_banner_reject_button_hide": false,
+                "preferences_center_close_button_hide": false,
+                "page_refresh_confirmation_buttons": false,
+                "website_privacy_policy_url": "https://www.reactclarity.co.uk/more"
+            });
+        });
+    </script>
+
+
+    <!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
 </head>
 
 <body>
+
     <header>
         <nav class="navbar fixed-top navbar-expand-md bg-clarity">
             <a class="navbar-brand" href="{{ url_for('index') }}"><img class="navbar-img"
@@ -63,7 +85,7 @@
                 </div>
             </div>
             <div class="row container-fluid">
-                
+
                 <div class="col-md-8 headtitle">
                     <h1><a href="{{ url_for('index') }}" class="display-1">REACT CLARITY</h1>
                     <h3 class="display-4">BUSINESS CONSULTANTS AND INTERIM MANAGERS</h3></a>
@@ -71,7 +93,8 @@
                 </div>
                 <div class="col-md-4 headtitle">
                     <a class="" href="{{ url_for('index') }}"><img class="logo-large img-fluid d-none d-md-block"
-                        src=" {{ url_for('static', filename='css/images/react-clarity.png') }}" alt="Clarity Logo"></a>
+                            src=" {{ url_for('static', filename='css/images/react-clarity.png') }}"
+                            alt="Clarity Logo"></a>
                 </div>
             </div>
             {% block content %}
@@ -112,7 +135,10 @@
                             <p>
                                 <a class="text-white" href="{{ url_for('services') }}">Services</a>
                             </p>
-                           
+                            <p>
+                                <a href="#" id="open_preferences_center">Update cookies preferences</a>
+                            </p>
+
 
                         </div>
 
@@ -124,7 +150,8 @@
                             <h6 class="mb-4">Contact</h6>
                             <p><i class="fas fa-home mr-3"></i> UK & Ireland</p>
                             <p><i class="fas fa-phone mr-3"></i> 0044 7736 805269</p>
-                            <p><i class="fas fa-envelope mr-3"></i><a href=mailto:info@reactclarity.com>info@reactclarity.com</a></p>
+                            <p><i class="fas fa-envelope mr-3"></i><a
+                                    href=mailto:info@reactclarity.com>info@reactclarity.com</a></p>
                             <a href="https://www.linkedin.com/in/kerryspence/" target="_blank">
                                 <i class="fab fa-linkedin"></i> LinkedIn</a>
                         </div>

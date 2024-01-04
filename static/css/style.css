@@ -116,6 +116,11 @@ a:hover {
 .call-text {
     font-size: 26px;
 }
+
+
+.about-me{
+     font-size: 1.25rem;
+}
 /* --- Contact Page contact.html --- */
 .call-text strong {
     text-decoration: none;

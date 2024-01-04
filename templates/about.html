@@ -24,9 +24,12 @@
     <div class="col-md-4 mb-5">
         <div class="card h-100">
             <div class="card-body text-center">
-                <a href="{{ url_for('services') }}"><h2 class="card-title display-4">Our Services</h2></a>
-                <p class="card-text h4">We provide a wide range of services starting with Business consultancy, Interim
-                    Management. You can read more about our wide range of <a class="clarity-bright" href="{{ url_for('services') }}">services here</a></p>
+                <a href="{{ url_for('services') }}">
+                    <h2 class="card-title display-4">Our Services</h2>
+                </a>
+                <p class="card-text h4">We provide a wide range of services-management consultancy, Mentoring and
+                    Interim Management. You can read more about our wide range of <a class="clarity-bright"
+                        href="{{ url_for('services') }}">services here</a></p>
             </div>
 
         </div>
@@ -39,18 +42,22 @@
         <div class="card mt-4 h-100">
             <div class="card-body text-center">
                 <h2 class="card-title display-4">Our People</h2>
-                    <p class="card-text h4">The team is lead by Kerry Spence, with over 30 years experience working in various industries and
-                        running her own businesses. Kerry has worked at board level as MD and General Manager and has seen a lot!
-                        Thriving right in the thick of the action on the rollercoaster that is rapid company growth. Building
-                        and managing teams, departments, and complex global supply chains. An effective decision maker and
-                        respected people manager who works well under pressure in a fast paced changing environment. Remaining
-                        practical and calm with a common sense and commercial approach.
-                    </p>
-                    <a class="btn btn-lg clarity-btn my-3 mx-auto" href="{{ url_for('team') }}">Meet Kerry</a>
-                </div>
+                <p class="card-text h4">The team is lead by Kerry Spence, with over 30 years experience working in
+                    various industries and
+                    running her own businesses. Kerry has worked at board level as MD and General Manager and has seen a
+                    lot!
+                    Thriving right in the thick of the action on the rollercoaster that is rapid company growth.
+                    Building
+                    and managing teams, departments, and complex global supply chains. An effective decision maker and
+                    respected people manager who works well under pressure in a fast paced changing environment.
+                    Remaining
+                    practical and calm with a common sense and commercial approach.
+                </p>
+                <a class="btn btn-lg clarity-btn my-3 mx-auto" href="{{ url_for('team') }}">Meet Kerry</a>
+            </div>
         </div>
     </div>
-    
+
 </div>
 
 {% endblock %}

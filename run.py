@@ -15,15 +15,6 @@ def before_request():
         return redirect(url, code=code)
 
 
-@app.before_request
-def before_request():
-    scheme = request.headers.get('X-Forwarded-Proto')
-    if scheme and scheme == '.co.uk' and request.url.endswith('.co.uk'):
-        url = request.url.replace('.co.uk', '.com', 1)
-        code = 301
-        return redirect(url, code=code)
-
-
 @app.route("/")
 def index():
     return render_template("index.html")

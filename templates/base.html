@@ -79,24 +79,12 @@
     </header>
     <section class="mainbody">
         <section>
-            <div class="container header-container">
+            <div class="header-container">
                 <div class="row">
                     <div class="col"></div>
                 </div>
             </div>
-            <div class="row container-fluid">
-
-                <div class="col-md-8 headtitle">
-                    <h1><a href="{{ url_for('index') }}" class="display-1">REACT CLARITY</h1>
-                    <h3 class="display-4">Management Consultants, Mentors and Interim Managers </h3></a>
-                    <small class="text-muted strapline lead">Your vision. We make it work.</small>
-                </div>
-                <div class="col-md-4 headtitle">
-                    <a class="" href="{{ url_for('index') }}"><img class="logo-large img-fluid d-none d-md-block"
-                            src=" {{ url_for('static', filename='css/images/react-clarity.png') }}"
-                            alt="Clarity Logo"></a>
-                </div>
-            </div>
+          
             {% block content %}
 
             {% endblock %}

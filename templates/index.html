@@ -2,13 +2,43 @@
 
 {% block content %}
 
+<div class="row m-0 ps-1 pe-2">
+
+    <div class="col-8 headtitle">
+        <img class="logo-large img-fluid"
+            src="{{ url_for('static', filename='css/images/ReactClaritySignatureLogo2.png') }}"
+            alt="Image of React Clairty Logo">
+        <small class="strapline lead">Your vision. We make it work.</small>
+        <small class="text-muted clarity-white lead">Interim Managers, People and team experts, mentors.</small>
+
+    </div>
+    <div class="col-4 headtitle">
+        <img class="logo-large img-fluid" src="{{ url_for('static', filename='css/images/ks-profile-pic.png') }}"
+            alt="Image of Kerry Spence">
+    </div>
+
+    <div class="col-md-7 mt-5 mx-auto">
+
+    </div>
+    <div class="col-md-5 mx-auto">
+
+    </div>
+</div>
+
 <div class="row">
     <div class="col-md-12 container">
-        <h1 class="h1 tagline">
+        <!-- <h1 class="h1 tagline">
             At React Clarity we specialise in identifying and addressing the gaps and roadblocks hindering your
             business's growth and productivity. When you're facing challenges with team dynamics, culture, lack of
             processes, or overwhelmed leaders, we step in on an interim basis as your trusted partner to assist you
             towards success. Your vision. We make it work.
+        </h1> -->
+        <h1 class="tagline h1">
+            Introducing React Clarity founded by Kerry Spence - your go to expert for Interim (fractional) management,
+            mentoring and business consultancy solutions.
+            <br>
+            Specialising in helping owner managed and family businesses with hands on , practical and common sense
+            support
         </h1>
 
 
@@ -17,9 +47,10 @@
             <div class="col-md-4 mb-5">
                 <div class="card h-100">
                     <div class="card-body text-center">
-                        <h2 class="card-title h3">Unleashing Business Potential</h2>
+                        <h2 class="card-title h3">Leader for hire</h2>
                         <p class="card-text h4">
-                            Navigating the challenges of growth, optimising team performance, maximising opportunities.
+                            Interim(fractional) leader for hire.
+                            Take the first step toward a better work/life balance
                         </p>
                         <button type="button" class="btn clarity-btn btn-primary" data-toggle="modal"
                             data-target="#unleash">
@@ -34,26 +65,92 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content bg-clarity">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="unleashTitle">Unleashing Business Potential</h5>
+                            <h5 class="modal-title" id="unleashTitle">Leader for hire</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            If your business is experiencing stagnation and you're unsure of how to navigate the
-                            challenges of growth, we offer comprehensive solutions. From streamlining processes to
-                            optimising your team's performance, we're committed to unleashing your business's true
-                            potential.
+                            Take the first step towards a better work-life balance with our interim (fractional)
+                            succession management service. Perfect for business owners who want to step back for a
+                            better work/life balance and for family businesses preparing for the next generation. Our
+                            part-time, interim management service provides a safe low risk and easy way to transition
+                            without long- term commitments or costs.
                             <br>
-                            If you have identified a gap in your management structure and are preparing to recruit for a
-                            senior manager, general manager or MD, we're here to step in with the expertise needed to
-                            maintain operations and prepare your business, systems, processes and team for a seamless
-                            transition. We can assess exactly what you need, and help you set up the structure and
-                            prepare your team to accommodate your new hire and ensure their success.
+                            Key Features
+                            <ul>
+                                <li>
+                                    Controlled step back: We help you let go slowly and carefully
+                                    without a long-term
+                                    commitment.
+                                </li>
+                                <li>
+                                    Interim Leadership: We provide temporary part time leadership until you transition
+                                    into a
+                                    new management structure.
+                                </li>
+                                <li>
+                                    Tailored Executive Search: We use our deep understanding of your business to define
+                                    the
+                                    role/s and management structure to help you build your team.
+                                </li>
+                                <li>
+                                    Team Alignment: We ensure your team members are in the right roles and performing at
+                                    their
+                                    best to maintain business performance and seamless integration of any new hire.
+                                </li>
+                                <li>
+                                    Coaching the next generation: Mentoring and support for the next generation or new
+                                    hires.
+                                </li>
+                                <li>
+                                    Productivity Enhancement: We help you maintain operational efficiency, during change
+                                    ensuring continued productivity and profitability.
+                                </li>
 
+                            </ul>
+                            <br>
+                            Key Benefits
+                            <br>
+                            <ul>
+                                <li>
+                                    Flexible Interim Solution: Maintain continuity with temporary leadership while you
+                                    sample stepping back. Extent and pace is up to you.
+                                </li>
+                                <li>
+                                    Protect Your Business: Ensure your business remains stable during any succession
+                                    process.
+                                </li>
+                                <li>
+                                    Work life balance and flexibility: Create space and time and the opportunity to
+                                    achieve a healthier work-life balance.
+                                </li>
+                                <li>
+                                    Low risk solution: Maintain control in a cost-effective manner with flexibility to
+                                    take additional time away from the business.
+                                </li>
+                                <li>
+                                    Cost savings: With a deep understanding of your business, we help you identify the
+                                    right senior leader, avoiding any costly hiring mistakes.
+                                </li>
+                                <li>
+                                    Smooth Transition: Fully prepare your organisation to support and welcome new hires
+                                    by establishing a robust system, structure, and positive culture.
+                                </li>
+                                <li>
+                                    Coach the Next Generation: Hands-on coaching to prepare for new roles.
+                                </li>
+                            </ul>
+                            <br>
+                            <p class="text-center">BUY BACK YOUR TIME</p>
+                            Trust your business to experienced and capable hands, stay as involved as you desire, and
+                            confidently take a step back to enjoy a higher quality of life with minimal risk.
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn clarity-btn" data-dismiss="modal">Close</button>
+                            Take the 1st step - <a class="btn clarity-btn btn-sm my-3" href=""
+                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/reactclarityintro/45min'});return false;">Book
+                                a Call</a>
+                            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -61,12 +158,11 @@
             <div class="col-md-4 mb-5">
                 <div class="card h-100">
                     <div class="card-body text-center">
-                        <h2 class="card-title h3">Mentoring</h2>
+                        <h2 class="card-title h3">People and team specialist</h2>
                         <p class="card-text h4">
-                            If you are working in your business and not on your business, we help you regain control by
-                            providing that trusted advice and experience you have been looking for. </p>
-                        <button type="button" class="btn clarity-btn btn-primary" data-toggle="modal"
-                            data-target="#regain">
+                            Creating cohesive and high performing teams
+                        </p>
+                        <button type="button" class="btn clarity-btn " data-toggle="modal" data-target="#regain">
                             More Info
                         </button>
                     </div>
@@ -78,35 +174,64 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content bg-clarity">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="regainTitle">Mentoring</h5>
+                            <h5 class="modal-title" id="regainTitle">People and team specialist</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            We offer one to one mentoring packages for Business Owners, Senior Executives and Managers
-                            at all stages of the business journey.
-                            <br>
-                            With over 30 years' experience in business, both as an owner and employee, Kerry Spence
-                            understands that leaders often find themselves burdened with multiple responsibilities and
-                            often just need a sounding board, a trusted confidant, or the benefit of someone who has
-                            experienced and navigated similar challenges to their own.
-                            <br>
-                            We tailor a mentoring package to suit your timetable and budget - we can schedule sessions
-                            as frequently or infrequently as suits you, for as long as it works for you and your
-                            business goals.
-                            <br>
-                            The first discovery call is always free - <a class="btn btn-sm clarity-btn my-3" href=""
-                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/reactclarityintro/45min'});return false;">get
-                                in touch</a>
+                            Key Features
+                            <ul>
+                                <li>
+                                    Team Analysis: Assess the current team setup to align roles with individual skills
+                                    and identify areas for improvement.
+                                </li>
+                                <li>
+                                    Conflict Resolution: Address and resolve interpersonal conflicts, issues or
+                                    stumbling blocks, promoting a collaborative and productive work environment.
+                                </li>
+                                <li>
+                                    Contract and Role Review: Confirm and update employment status and contracts, job
+                                    descriptions, and terms and conditions (including outsourced contractors) to reflect
+                                    accurate responsibilities and expectations.
+                                </li>
+                                <li>
+                                    Performance Metrics: Develop and implement KPIs and a performance measurement and
+                                    management process to monitor and enhance individual and team performance.
+                                </li>
+                                <li>
+                                    Cultural Enhancement: Evaluate and improve your business culture, fostering a
+                                    positive, motivating, and inclusive workplace.
+                                </li>
+                                <li>
+                                    Rewards and Incentives: Design and implement effective reward and incentive programs
+                                    to recognise and encourage high performance.
+                                </li>
+                                <li>
+                                    Mentoring Support: Provide ongoing mentoring and support for team members facing
+                                    challenges, helping them to improve and succeed.
+                                </li>
 
-                            <img class="featurette-image img-fluid mx-auto d-block"
-                                src="{{ url_for('static', filename='css/images/ABMLogo.jpeg') }}"
+                            </ul>
+                            <br>
+                            <p class="text-center">CREATE HIGH PERFORMANCE TEAMS</p>
+                            Whether you need to realign team roles, resolve conflicts, establish robust performance and
+                            reward systems or simply tighten up your paperwork, Team Sync offers the expertise and
+                            practical solutions necessary to create a cohesive,
+                            high-performing, and motivated team.
+
+
+
+                            <img class="pt-3 featurette-image img-fluid mx-auto d-block"
+                                src="{{ url_for('static', filename='css/images/ABMLogo.jpg') }}"
                                 alt="Image of Kerry Spence">
 
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn clarity-btn" data-dismiss="modal">Close</button>
+                            The first discovery call is always free - <a class="btn btn-sm clarity-btn my-3" href=""
+                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/reactclarityintro/45min'});return false;">Book
+                                a Call</a>
+                            <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -114,10 +239,9 @@
             <div class="col-md-4 mb-5">
                 <div class="card h-100">
                     <div class="card-body text-center">
-                        <h2 class="card-title h3">Identifying Roadblocks</h2>
+                        <h2 class="card-title h3">Business consultancy</h2>
                         <p class="card-text h4">
-                            Pinpointing the root causes of your challenges, through formal audit and
-                            comprehensive planning, or practical hands on guidance.
+                            Build a better, stronger business
                         </p>
                         <button type="button" class="btn clarity-btn btn-primary" data-toggle="modal"
                             data-target="#identifiy">
@@ -132,25 +256,55 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content bg-clarity">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="identifiyTitle">Identifying Roadblocks</h5>
+                            <h5 class="modal-title" id="identifiyTitle">Business consultancy</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            We look into your business, to pinpoint the root causes of your challenges. This can be by
-                            way of a formal audit and comprehensive plan, or more practical hands on guidance and help
-                            to troubleshoot or sort. We are adept at recognising bottlenecks and inefficiencies that may
-                            be holding your business back. We have experience over various business functions and many
-                            industries.
+                            Management Reset is a specialised consulting service aimed at redefining and revitalising
+                            your organisation's leadership. Our service is designed
+                            to offer practical solutions for overcoming challenges, trouble shooting, firefighting and
+                            achieving sustainable growth.
+
                             <br>
-                            We give you advice based on our extensive business knowledge and experience. And, we can
-                            take it one step further by implementing the solution for you. Our approach is flexible and
-                            practical - we recognise that every business has particular needs so we tailor our approach
-                            to suit you, your team and your business goals.
+                            Key Features
+                            <ul>
+                                <li>
+                                    Vision and Strategy Development: Facilitate the creation or refinement of your
+                                    business vision and strategic plan, aligning leadership goals with business
+                                    objectives.
+                                </li>
+                                <li>
+                                    Leadership Training: Provide targeted training and support for senior leaders to
+                                    enhance their skills and confidence, improve decision-making, trouble-shooting
+                                    skills, and foster a culture of innovation and growth.
+                                </li>
+                                <li>
+                                    Mentoring and Support: Offer ongoing mentorship and support to business owners and
+                                    senior leaders, helping them navigate challenges and capitalise on opportunities.
+                                </li>
+                                <li>
+                                    Practical Problem-Solving: Deliver hands-on assistance in addressing immediate
+                                    business challenges and implementing growth strategies.
+                                </li>
+                                <li>
+                                    Growth Facilitation: Equip leaders with the tools and knowledge needed to drive
+                                    sustainable growth and lead their teams effectively.
+                                </li>
+                            </ul>
+                            <br>
+                            <p class="text-center">YOUR VISION - WE MAKE IT WORK</p>
+                            Whether you're looking to redefine your organisation's direction, enhance the capabilities
+                            of your senior leadership team, or overcome specific business and people challenges,
+                            Management Reset provides the expertise and support necessary to achieve transformative
+                            results and foster long-term success and growth.
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn clarity-btn" data-dismiss="modal">Close</button>
+                            <a class="btn btn-sm clarity-btn my-3" href=""
+                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/reactclarityintro/45min'});return false;">Book
+                                a Call</a>
+                            <button type="button" class="btn btn-sm clarity-btn" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -163,12 +317,10 @@
 
 
 
-        <div class="col-12 col-md-6 offset-md-3">
-            <p class="card-text text-center h5">
-                Don't know where to start? If your business is facing obstacles, lacks processes, or needs mentorship,
-                <br>
-                look no further. We work confidentially right up to board level across diverse sectors.
-                Let's have a no obligation discussion about your current challenges.
+        <div class="col-12 col-md-8 offset-md-2">
+            <p class="card-text text-center cta h5">
+                Don't know where to start? Look no further. Let's have a no obligation and confidential discussion
+                about your current challenges
             </p>
         </div>
         <div class="col-md-12 text-center">
@@ -178,8 +330,6 @@
             <a class="btn btn-lg clarity-btn my-3" href=""
                 onclick="Calendly.initPopupWidget({url: 'https://calendly.com/reactclarityintro/45min'});return false;">Book
                 now</a>
-
-
             <!-- Calendly link widget end -->
         </div>
     </div>

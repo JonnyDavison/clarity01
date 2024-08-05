@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* --- General Styles --- */
 body {
     font-family: 'Oswald', sans-serif;
@@ -9,26 +10,35 @@ body {
     background-color: #094275;
     color: #F0D5C0;
 }
+
 .bg-clarity {
     background-color: #094275;
 }
+
 .clarity-bright {
     color: #DC7364;
 }
+
 .clarity-white {
     color: #F0D5C0;
 }
 
-
-.mainbody {
-    padding-left: 5%; 
-    padding-right: 5%; 
-    scroll-behavior: smooth;
-    padding-bottom: 10%;
-    margin-top: 10px ;
+.header-container {
+    height: 116px;
 }
 
-h1, h2, h3, h4 {
+.mainbody {
+    padding-left: 5%;
+    padding-right: 5%;
+    scroll-behavior: smooth;
+    padding-bottom: 10%;
+    margin-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
@@ -45,7 +55,7 @@ h1, h2, h3, h4 {
 }
 
 /* --- Page logo --- */
-.logo-large{
+.logo-large {
     width: 100%;
     height: auto;
 }
@@ -68,6 +78,7 @@ a {
     text-decoration: none;
     color: #F0D5C0
 }
+
 a:hover {
     text-decoration: none;
     color: #DC7364
@@ -83,18 +94,21 @@ a:hover {
 .navbar {
     margin-left: auto
 }
+
 .nav-item a:hover {
     color: #DC7364;
 }
+
 .nav {
     flex-wrap: nowrap;
 }
+
 .nav a {
     text-align: end;
     color: #F0D5C0;
 }
 
-.navbar-img{
+.navbar-img {
     height: 50px;
     width: auto;
 }
@@ -128,15 +142,17 @@ a:hover {
 }
 
 
-.about-me{
-     font-size: 1.25rem;
+.about-me {
+    font-size: 1.25rem;
 }
+
 /* --- Contact Page contact.html --- */
 .call-text strong {
     text-decoration: none;
     color: #DC7364;
     text-transform: capitalize;
 }
+
 .call-text strong:hover {
     text-decoration: underline;
     color: #DC7364
@@ -147,6 +163,7 @@ a:hover {
 .thanksDiv {
     display: none;
 }
+
 /* --- buttons all pages --- */
 
 .clarity-btn {
@@ -167,12 +184,12 @@ a:hover {
 .card-body h2:hover {
     color: #DC7364;
 }
+
 .card-body p {
     font-weight: 200;
 }
 
-.about-card 
-
+.about-card
 /* --- Footer all pages --- */
 
 footer {
@@ -195,7 +212,8 @@ footer {
     text-align: center;
 }
 
-.footer-sections p:hover, i:hover {
+.footer-sections p:hover,
+i:hover {
     color: #DC7364;
 }
 
@@ -214,7 +232,7 @@ footer {
     overflow: hidden;
     font-weight: 200;
     line-height: 1;
-    margin: 0;    
+    margin: 0;
     margin-bottom: 0;
     padding-bottom: 2.5%;
 }
@@ -230,28 +248,26 @@ footer {
 }
 
 /* --- Media Queries SUB 1400px --- */
-@media(max-width: 1400px) {
-    
-    
-  
+@media(max-width: 1400px) {}
 
-}
 @media (max-width: 991px) {
     .header-container {
-       height: 116px;
+        height: 116px;
     }
 }
+
 /* --- Media Queries SUB 800px --- */
 @media(max-width: 800px) {
-    
-    .logo-large{
+
+    .logo-large {
         width: 150% !important;
         height: auto;
     }
+
     .strapline {
         padding-top: 0%;
         margin-top: -10%;
         font-size: 20px;
     }
- 
- }
+
+}

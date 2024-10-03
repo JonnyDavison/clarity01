@@ -131,7 +131,7 @@ a:hover {
 }
 
 .call-to-action {
-    justify-content: right;
+    justify-content: center;
     margin-right: 0;
     display: flex;
     padding-bottom: 5%;
@@ -139,6 +139,7 @@ a:hover {
 
 .call-text {
     font-size: 26px;
+    text-align: center;
 }
 
 

@@ -15,6 +15,14 @@ body {
     background-color: #094275;
 }
 
+.bg-clarity-bright {
+    background-color: #DC7364;
+}
+
+.clarity-boarder {
+    border: #DC7364 solid 1px;
+}
+
 .clarity-bright {
     color: #DC7364;
 }
@@ -126,6 +134,7 @@ a:hover {
 
 .newsletterline {
     font-weight: 300;
+    font-size: 1.2rem;
 }
 
 

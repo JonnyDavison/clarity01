@@ -122,6 +122,28 @@ a:hover {
     background-color: #094275;
 }
 
+/* NEWSLETTER SIGN UP */
+
+.newsletterline {
+    font-weight: 300;
+}
+
+
+
+#mc_embed_signup{
+    max-width: 600px;
+    }
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
+#mergeRow-gdpr {margin-top: 20px;}
+#mergeRow-gdpr fieldset label {font-weight: normal;}
+#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
+#mc-embedded-subscribe {
+    max-width: 100px;
+}
+
 /* --- Home Page index.html --- */
 
 .tagline {
@@ -129,6 +151,7 @@ a:hover {
     font-size: 2rem;
     font-weight: 200;
 }
+
 
 .call-to-action {
     justify-content: center;
@@ -253,7 +276,7 @@ i:hover {
 
 @media (max-width: 991px) {
     .header-container {
-        height: 116px;
+        height: 75px;
     }
 }
 

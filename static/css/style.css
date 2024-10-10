@@ -203,6 +203,10 @@ a:hover {
     color: #F0D5C0;
     background-color: #DC7364;
 }
+.clarity-btn:hover {
+    color: #DC7364;
+    background-color: #F0D5C0;
+}
 
 .funnel-btn {
     margin: auto;

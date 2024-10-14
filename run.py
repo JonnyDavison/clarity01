@@ -35,10 +35,13 @@ def contact():
     return render_template("contact.html", page_title="Contact")
 
 
-@app.route("/more")
-def more():
-    return render_template("more.html", page_title="More")
+@app.route("/privacy-policy")
+def privacy():
+    return render_template("privacy-policy.html", page_title="Privacy")
 
+@app.route("/cookies-policy")
+def cookies():
+    return render_template("cookies-policy.html", page_title="Cookies")
 
 @app.route("/team")
 def team():

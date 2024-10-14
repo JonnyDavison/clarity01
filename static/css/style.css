@@ -226,7 +226,17 @@ a:hover {
     font-weight: 200;
 }
 
-.about-card
+/* Cards on service page */
+@media (max-width: 767px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .order-1 { order: 1; }
+    .order-2 { order: 2; }
+    .order-3 { order: 3; }
+}
+
 /* --- Footer all pages --- */
 
 footer {

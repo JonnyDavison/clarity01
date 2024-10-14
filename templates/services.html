@@ -4,15 +4,6 @@
 <div class="row">
     <div class="col-12 mb-2">
         <h2 class="my-4">Services</h2>
-        <div class="row text-center mb-4">
-            <div class="col d-none d-md-block"></div>
-            <div class="col p-0">
-                <h4 class="clarity-bright">Download Our Full Services Broucher <a
-                        href="static/css/React Clarity Services Brochure .pdf" class="clarity-btn btn-sm ml-1"
-                        download="React Clarity Services Brochure">Download</a></h4>
-            </div>
-            <div class="col d-none d-md-block"></div>
-        </div>
     </div>
 </div>
 <div class="row gx-4 gx-lg-5">
@@ -256,7 +247,7 @@
 <!-- -------- SECOND ROW -------- -->
 
 <div class="row gx-4 gx-lg-5">
-    <div class="col-md-4 mb-5">
+    <div class="col-md-4 mb-5 order-md-1 order-1">
         <div class="card h-100">
             <div class="card-body text-center">
                 <h2 class="card-title h3">Business Turnaround</h2>
@@ -330,7 +321,83 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4 mb-5">
+
+    <div class="col-md-4 mb-5 order-md-2 order-3">
+        <div class=" h-100">
+            <div class="card-body text-center">
+                <div class="col p-0 pt-1">
+                    <h4 class="clarity-bright">Download Our Full Services Brochure
+                        <br>
+                        <br>
+                        <a href="static/css/React Clarity Services Brochure .pdf" class="clarity-btn btn-sm ml-1"
+                            download="React Clarity Services Brochure">Download</a>
+                    </h4>
+                </div>
+                <!-- <button type="button" class="btn clarity-btn " data-toggle="modal" data-target="#identifiy">
+                    More Info
+                </button> -->
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <!-- <div class="modal fade" id="identifiy" tabindex="-1" role="dialog" aria-labelledby="identifiyTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-clarity">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="identifiyTitle">Business consultancy</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Management Reset is a specialised consulting service aimed at redefining and revitalising
+                    your organisation's leadership. Our service is designed
+                    to offer practical solutions for overcoming challenges, trouble shooting, firefighting and
+                    achieving sustainable growth.
+
+                    <br>
+                    Key Features
+                    <ul>
+                        <li>
+                            Vision and Strategy Development: Facilitate the creation or refinement of your
+                            business vision and strategic plan, aligning leadership goals with business
+                            objectives.
+                        </li>
+                        <li>
+                            Leadership Training: Provide targeted training and support for senior leaders to
+                            enhance their skills and confidence, improve decision-making, trouble-shooting
+                            skills, and foster a culture of innovation and growth.
+                        </li>
+                        <li>
+                            Mentoring and Support: Offer ongoing mentorship and support to business owners and
+                            senior leaders, helping them navigate challenges and capitalise on opportunities.
+                        </li>
+                        <li>
+                            Practical Problem-Solving: Deliver hands-on assistance in addressing immediate
+                            business challenges and implementing growth strategies.
+                        </li>
+                        <li>
+                            Growth Facilitation: Equip leaders with the tools and knowledge needed to drive
+                            sustainable growth and lead their teams effectively.
+                        </li>
+                    </ul>
+                    <br>
+                    <p class="text-center">YOUR VISION - WE MAKE IT WORK</p>
+                    Whether you're looking to redefine your organisation's direction, enhance the capabilities
+                    of your senior leadership team, or overcome specific business and people challenges,
+                    Management Reset provides the expertise and support necessary to achieve transformative
+                    results and foster long-term success and growth.
+                </div>
+                <div class="modal-footer">
+                    The first discovery call is always free - <a href="{{ url_for('contact') }}"
+                        class="btn clarity-btn btn-sm my-3">Book a Call</a>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="col-md-4 mb-5 order-md-3 order-2">
         <div class="card h-100">
             <div class="card-body text-center">
                 <h2 class="card-title h3">Management Reset</h2>
@@ -400,78 +467,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="col-md-4 mb-5">
-        <div class="card h-100">
-            <div class="card-body text-center">
-                <h2 class="card-title h3">Business consultancy</h2>
-                <p class="card-text h4">
-                    Build a better, stronger business
-                </p>
-                <button type="button" class="btn clarity-btn " data-toggle="modal" data-target="#identifiy">
-                    More Info
-                </button>
-            </div>
-        </div>
-    </div> -->
-    <!-- Modal -->
-    <!-- <div class="modal fade" id="identifiy" tabindex="-1" role="dialog" aria-labelledby="identifiyTitle"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content bg-clarity">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="identifiyTitle">Business consultancy</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Management Reset is a specialised consulting service aimed at redefining and revitalising
-                    your organisation's leadership. Our service is designed
-                    to offer practical solutions for overcoming challenges, trouble shooting, firefighting and
-                    achieving sustainable growth.
 
-                    <br>
-                    Key Features
-                    <ul>
-                        <li>
-                            Vision and Strategy Development: Facilitate the creation or refinement of your
-                            business vision and strategic plan, aligning leadership goals with business
-                            objectives.
-                        </li>
-                        <li>
-                            Leadership Training: Provide targeted training and support for senior leaders to
-                            enhance their skills and confidence, improve decision-making, trouble-shooting
-                            skills, and foster a culture of innovation and growth.
-                        </li>
-                        <li>
-                            Mentoring and Support: Offer ongoing mentorship and support to business owners and
-                            senior leaders, helping them navigate challenges and capitalise on opportunities.
-                        </li>
-                        <li>
-                            Practical Problem-Solving: Deliver hands-on assistance in addressing immediate
-                            business challenges and implementing growth strategies.
-                        </li>
-                        <li>
-                            Growth Facilitation: Equip leaders with the tools and knowledge needed to drive
-                            sustainable growth and lead their teams effectively.
-                        </li>
-                    </ul>
-                    <br>
-                    <p class="text-center">YOUR VISION - WE MAKE IT WORK</p>
-                    Whether you're looking to redefine your organisation's direction, enhance the capabilities
-                    of your senior leadership team, or overcome specific business and people challenges,
-                    Management Reset provides the expertise and support necessary to achieve transformative
-                    results and foster long-term success and growth.
-                </div>
-                <div class="modal-footer">
-                    <a class="btn btn-sm clarity-btn my-3" href=""
-                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/reactclarityintro/45min'});return false;">Book
-                        a Call</a>
-                    <button type="button" class="btn btn-sm clarity-btn" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
 
 </div>
